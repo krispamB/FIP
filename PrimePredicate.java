@@ -3,7 +3,7 @@ public class PrimePredicate implements UnaryPredicate<Integer> {
     @Override
     public boolean test(Integer n) {
         if (n <=  1) {
-            return false;
+            return true;
         }
 
         for (int i =  2; i * i <= n; i++) {
